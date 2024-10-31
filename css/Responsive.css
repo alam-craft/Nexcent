@@ -1,0 +1,17 @@
+@media (max-width: 575px){
+    nav{
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+}
+nav .navbar-toggler{
+    border: none;
+    font-size: 30px;
+}
+nav .navbar-toggler:focus{
+     box-shadow: none;
+}
+nav ul li a.nav-link {
+    padding: 10px 25px !important;
+   
+}
+@media (min-width: 992px){}
